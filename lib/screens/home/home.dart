@@ -36,7 +36,7 @@ class ExploreButton extends StatelessWidget {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => Search()));
         },
-        padding: EdgeInsets.symmetric(horizontal: 120, vertical: 10),
+        padding: EdgeInsets.symmetric(horizontal: 120, vertical: 15),
         color: Colors.blue,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
         child: Text('Explore',
